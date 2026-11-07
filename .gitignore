@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+
+# Compilación
+dist/
+
+# Variables locales
+.env
+.env.local
+
+# Sistema y editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Registros
+*.log
+npm-debug.log*

@@ -1,0 +1,1 @@
+export function AlertMessage({mensaje,onClose}){return mensaje?<div className="alert"role="status">{mensaje}<button aria-label="Cerrar"onClick={onClose}>×</button></div>:null}
